@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 
 class Array{
-    public static int[] CreatePrint(int size){
+    public static int[]? CreatePrint(int size){
         int[] NumberList = new int[size];
         if(size == 0){
             Console.WriteLine();
